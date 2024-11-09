@@ -1,0 +1,95 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: #F4D04E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  height: 522px;
+  width: 384px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px black solid;
+  position: relative
+}
+
+.card-background {
+  /* background-color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 522px;
+  width: 384px; */
+}
+
+.top-img {
+  border-radius: 10px;
+  margin: 24px 24px 0px 24px;
+  object-fit: fill;
+}
+
+.card-text {
+  font-family: "Figtree", sans-serif;
+  font-style: normal;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.card-text .title {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 800;
+  letter-spacing: 0px;
+  color: #111111;
+}
+
+.card-text .caption {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #6B6B6B;
+}
+.card-text .date {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #111111;
+}
+
+.card-text .tag {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #111111;
+  padding: 4px 8px;
+  background-color: #F4D04E;
+  border-radius: 4px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 32px;
+  height: 32px;
+}
+.user-info .username {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #111111;
+  margin-left: 12px;
+  text-align: center;
+}
