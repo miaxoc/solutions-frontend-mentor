@@ -16,17 +16,34 @@ body {
   background-color: white;
   border-radius: 20px;
   border: 1px black solid;
-  position: relative
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.card:hover .title {
+  color: #F4D04E;
+  transition: 0.3s;
+}
+
+
+.card:hover .card-background {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  transition: 0.3s;
 }
 
 .card-background {
-  /* background-color: red;
+  background-color: #111111;
+  border-radius: 20px;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 8px;
+  left: 8px;
   height: 522px;
-  width: 384px; */
+  width: 384px;
+  z-index: -1;
 }
+
 
 .top-img {
   border-radius: 10px;
@@ -47,6 +64,7 @@ body {
   font-weight: 800;
   letter-spacing: 0px;
   color: #111111;
+  margin: 16px 0px 16px 0px;
 }
 
 .card-text .caption {
@@ -55,6 +73,7 @@ body {
   font-weight: 400;
   letter-spacing: 0px;
   color: #6B6B6B;
+  margin: 10px 0px 10px 0px;
 }
 .card-text .date {
   font-size: 16px;
