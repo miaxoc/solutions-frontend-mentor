@@ -1,0 +1,102 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: #F3E5D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  margin: 120px auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.prep-card {
+  padding: 16px 30px;
+  border-radius: 20px;
+  background-color: hsl(330, 100%, 98%);
+  margin: 40px 0px;
+}
+
+.prep-card h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  line-height: 200%;
+}
+
+ol, ul {
+  padding: 16px;
+
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.ingredients {
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+.instructions {
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+.nutrition-item {
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+  display: flex;
+}
+
+.nutrition-item p {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.dose {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
