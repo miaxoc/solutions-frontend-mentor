@@ -28,6 +28,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: hsl(24, 5%, 18%);
+  font-size: 40px;
 }
 
 h2 {
@@ -69,7 +70,7 @@ li {
 }
 
 ol, ul {
-  padding: 16px;
+  padding: 0px 16px;
 
 }
 
@@ -99,4 +100,17 @@ ol li::marker {
 .dose {
   color: hsl(14, 45%, 36%);
   font-weight: 600;
+}
+
+@media (max-width:380px) {
+  .card {
+    width: 80%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+
+  body {
+    background-color: hsl(0, 0%, 100%);
+
+  }
 }
