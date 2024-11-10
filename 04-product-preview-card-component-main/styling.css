@@ -1,0 +1,107 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  padding: 26px 8px;
+}
+
+.card {
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card img {
+  width: 100%;
+}
+
+.text {
+  margin: 24px;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100%;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.9em;
+  line-height: 150%;
+}
+
+.perfume {
+  letter-spacing: 0.5em;
+  line-height: 100%;
+}
+
+.price {
+  display: flex;
+  line-height: 120%;
+  align-items: center;
+}
+
+.price h1 {
+  margin: 16px;
+  color: hsl(158, 36%, 37%)
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+  @media (max-width: 79em) {
+    .smallimg {display: block}
+    .bigimg {display: none}
+  }
+
+/* Styling for desktop */
+
+@media (min-width: 80em) {
+  .smallimg {display: none}
+  .bigimg {display: block}
+
+  body  {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    width: 50%;
+  }
+
+  .card img {
+    width: 50%;
+  }
+
+  .text {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
