@@ -9,24 +9,31 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" hred="styling.css">
+  <link rel="stylesheet" href="styling.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
   <div class="card">
-    <img src="./images/illustration-hero.svg" alt="music illustration">
+    <img id="illustration" src="./images/illustration-hero.svg" alt="music illustration">
     <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    <p class="caption">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
     <div class="plan-card">
       <img src="./images/icon-music.svg" alt="music icon">
-      <div>
-        <p>Annual Plan</p>
-        <p>$59.99/year</p>
+      <div class="plan-text">
+        <div>
+          <p class="annual-plan">Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
+        <div>
+          <a class="link" href="#">change</a>
+        </div>
       </div>
-      <p>change</p>
     </div>
     <p id="button">Proceed to Payment</p>
-    <p>Cancel Order</p>
+    <p id="cancel-order">Cancel Order</p>
   </div>
 
   <div class="attribution">
