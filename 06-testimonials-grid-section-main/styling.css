@@ -1,0 +1,103 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 24px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 24px 30px;
+  margin: 12px 0px;
+  position: relative;
+  z-index: 2; /
+}
+
+.card .title {
+  opacity: 50%;
+}
+
+.card-user {
+  display: flex;
+}
+
+.card .comments {
+  opacity: 70%;
+}
+
+.card img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+#quotation-img {
+  border-radius: 0px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right: 24px;
+  z-index: 1;
+}
+
+.user-info p {
+  margin: 0px 16px;
+}
+
+#card1 {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+
+#card1 img {
+  /* border: 5px hsla(263, 55%, 52%, 0.5); */
+}
+
+#card2 {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+
+#card3 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+#card4 {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+
+#card5 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.825rem;
+  line-height: 140%;
+}
+
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 3;
+}
+
+
+@media (min-width: 80em) {
+
+}
