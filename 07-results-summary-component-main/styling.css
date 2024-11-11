@@ -1,0 +1,17 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.total-score {
+  background: hsl(241, 81%, 54%);
+  background: linear-gradient(0deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+}
+
+.score-circle {
+  background: hsla(241, 72%, 46%, 0);
+  background: linear-gradient(0deg, hsla(241, 72%, 46%, 0) 0%, hsla(256, 72%, 46%, 1) 100%);
+  border-radius: 50%;
+}
+
+.score-circle h1 {
+  text-align: center;
+}
