@@ -113,20 +113,63 @@ h1 {
 @media screen and (min-width: 80rem) {
   body {
     padding: 96px 160px;
+    background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+    background-size: 40%, 80%;
+    background-position: top left, bottom right;
   }
 
   .desktop-header {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   h1 {
+    width: 70%;
     margin: 0px 16px 0px 0px;
     font-size: 3rem;
+  }
 
+  .header-paragraph {
+    width: 80%;
   }
 
   .desktop-header-left {
     text-align: start;
+  }
+  .rating {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    padding: 16px;
+  }
+
+  #rating2 {
+    margin-left: 10%;
+  }
+
+  #rating3 {
+    margin-left: 20%;
+  }
+
+  .testimonials {
+    display: flex;
+    gap: 24px;
+    margin: 16px;
+  }
+
+  .testimonial {
+    height: 50%;
+  }
+
+  #testimonial1 {
+    margin-top: 0%;
+  }
+
+  #testimonial2{
+    margin-top: 2.5%;
+  }
+
+  #testimonial3 {
+    margin-top: 5%;
   }
 }
