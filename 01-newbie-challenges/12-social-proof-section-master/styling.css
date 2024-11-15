@@ -1,0 +1,18 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* 400, 500, 700 */
+  font-style: normal;
+  font-size: 15px;
+  line-height: 150%;
+  padding: 70px 24px;
+}
