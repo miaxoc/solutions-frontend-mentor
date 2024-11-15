@@ -1,0 +1,108 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.cards {
+  margin: 72px 32px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 8px 24px 24px 24px;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 180%;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0px 16px 0px 0px;
+}
+
+.price p {
+  margin: 0px;
+}
+
+#monthly a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  background-color: hsl(71, 73%, 54%);
+  margin: 16px 0px 0px 0px;
+  text-decoration: none;
+  border-radius: 6px;
+  color:hsl(0, 0%, 100%);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+#join {background-color: hsl(0, 0%, 100%);}
+#join h1 {color: hsl(179, 62%, 43%);}
+#join h2 {color: hsl(71, 73%, 54%);}
+#join p {color:hsl(218, 22%, 67%);}
+
+#monthly {background-color: hsl(179, 62%, 43%);}
+#monthly h2 {color: hsla(0, 0%, 100%, 80%);}
+#monthly p {color:hsla(0, 0%, 100%, 60%);}
+
+#why {background-color: hsl(179, 47%, 52%);}
+#why h2 {color: hsla(0, 0%, 100%, 80%);}
+#why p {color:hsla(0, 0%, 100%, 60%); margin: 0px; line-height: 140%;}
+
+
+@media screen and (min-width: 80rem) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  #join p {
+    font-size: 1.1rem;
+    margin-right: 40px;
+  }
+
+  .cards {
+    width: 50%;
+  }
+  .desktop-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #join h2 {font-size: 1.2rem;}
+  #join h1 {font-size: 1.6rem;}
+  #monthly h2 {font-size: 1.2rem;}
+  #why h2 {font-size: 1.2rem;}
+}
