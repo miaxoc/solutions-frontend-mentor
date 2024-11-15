@@ -109,3 +109,24 @@ h1 {
   color: hsl(300, 24%, 96%);
   margin-bottom: 0px;
 }
+
+@media screen and (min-width: 80rem) {
+  body {
+    padding: 96px 160px;
+  }
+
+  .desktop-header {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  h1 {
+    margin: 0px 16px 0px 0px;
+    font-size: 3rem;
+
+  }
+
+  .desktop-header-left {
+    text-align: start;
+  }
+}
